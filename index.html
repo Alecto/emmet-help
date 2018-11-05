@@ -16,106 +16,106 @@
 
   <hr>
 
-<table id="t1" cellpadding="2" cellspacing="2" align="center" class="table emmet table-hover">
-    <caption>Emmet основной синтаксис</caption>
-    <tbody>
-    <tr>
-        <th>
-            Сокращение
-        </th>
-        <th>
-            Расшифровка сокращений
-        </th>
-    </tr>
-    <tr>
-        <td>
-            Дочерний: <span class="code">&gt;</span>
-        </td>
-        <td><pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- nav&gt;ul&gt;li --&gt;</span></li><li class="L1"><span class="tag">&lt;nav&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;ul&gt;</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="tag">&lt;/nav&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Соединение: <span class="code">+</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div+p+bq --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;p&gt;&lt;/p&gt;</span></li><li class="L3"><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Поместить выше (в дереве HTML): <span class="code">^</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div+div&gt;p&gt;span+em^bq --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;div&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li><li class="L5"><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="com">&lt;!-- div+div&gt;p&gt;span+em^^bq --&gt;</span></li><li class="L8"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L9"><span class="tag">&lt;div&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Группировка: <span class="code">()</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;header&gt;</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;ul&gt;</span></li><li class="L4"><span class="pln">            </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li class="L5"><span class="pln">            </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li class="L6"><span class="pln">        </span><span class="tag">&lt;/ul&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;/header&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;footer&gt;</span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;p&gt;&lt;/p&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;/footer&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span><span class="pln"> </span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Умножение: <span class="code">*</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- ul&gt;li*3 --&gt;</span></li><li class="L1"><span class="tag">&lt;ul&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L5"><span class="tag">&lt;/ul&gt;</span><span class="pln"> </span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Нумерация: <span class="code">$</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- ul&gt;li.item$*3 --&gt;</span></li><li class="L1"><span class="tag">&lt;ul&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L5"><span class="tag">&lt;/ul&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="com">&lt;!-- h$[title=item$]{Header $}*3 --&gt;</span></li><li class="L8"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;</span><span class="pln">Header 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L9"><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;</span><span class="pln">Header 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L0"><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;</span><span class="pln">Header 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="com">&lt;!-- ul&gt;li.item$$$*3 --&gt;</span></li><li class="L3"><span class="tag">&lt;ul&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item001"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item002"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item003"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L7"><span class="tag">&lt;/ul&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="com">&lt;!-- ul&gt;li.item$@-*3 --&gt;</span></li><li class="L0"><span class="tag">&lt;ul&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L4"><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- ul&gt;li.item$@3*5 --&gt;</span></li><li class="L7"><span class="tag">&lt;ul&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item4"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item5"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item6"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item7"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="tag">&lt;/ul&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <span class="code">id</span> и <span class="code">class</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- #header --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"header"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- .title --&gt;</span></li><li class="L4"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"title"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- form#search.wide --&gt;</span></li><li class="L7"><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"search"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"wide"</span><span class="tag">&gt;&lt;/form&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="com">&lt;!-- p.class1.class2.class3 --&gt;</span></li><li class="L0"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class1 class2 class3"</span><span class="tag">&gt;&lt;/p&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Атрибуты: <span class="code">[]</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- p[title="Hello world"] --&gt;</span></li><li class="L1"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Hello world"</span><span class="tag">&gt;&lt;/p&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- td[rowspan=2 colspan=3 title] --&gt;</span></li><li class="L4"><span class="tag">&lt;td</span><span class="pln"> </span><span class="atn">rowspan</span><span class="pun">=</span><span class="atv">"2"</span><span class="pln"> </span><span class="atn">colspan</span><span class="pun">=</span><span class="atv">"3"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/td&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- [a='value1' b="value2"] --&gt;</span></li><li class="L7"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">a</span><span class="pun">=</span><span class="atv">"value1"</span><span class="pln"> </span><span class="atn">b</span><span class="pun">=</span><span class="atv">"value2"</span><span class="tag">&gt;&lt;/div&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Текст: <span class="code">{}</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- a{Click me} --&gt;</span></li><li class="L1"><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span><span class="pln">Click me</span><span class="tag">&lt;/a&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- p&gt;{Click }+a{here}+{ to continue} --&gt;</span></li><li class="L4"><span class="tag">&lt;p&gt;</span><span class="pln">Click </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span><span class="pln">here</span><span class="tag">&lt;/a&gt;</span><span class="pln"> to continue</span><span class="tag">&lt;/p&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            Сокращение тегов:
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- .class --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- em&gt;.class --&gt;</span></li><li class="L4"><span class="tag">&lt;em&gt;&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/span&gt;&lt;/em&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- ul&gt;.class --&gt;</span></li><li class="L7"><span class="tag">&lt;ul&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L9"><span class="tag">&lt;/ul&gt;</span></li><li class="L0"><span class="pln">&nbsp;</span></li><li class="L1"><span class="com">&lt;!-- table&gt;.row&gt;.col --&gt;</span></li><li class="L2"><span class="tag">&lt;table&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;tr</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;td</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col"</span><span class="tag">&gt;&lt;/td&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/tr&gt;</span></li><li class="L6"><span class="tag">&lt;/table&gt;</span><span class="pln"> </span></li></ol></pre>
-        </td>
-    </tr>
-    <tr id="em-2">
-        <td>
-            Генератор текста: <span class="code">lorem</span>
-        </td>
-        <td>
-		 <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- .wrapper&gt;h1{My Text}+p*3&gt;lorem5 --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"wrapper"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">   </span><span class="tag">&lt;h1&gt;</span><span class="pln">My Text</span><span class="tag">&lt;/h1&gt;</span></li><li class="L3"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Lorem ipsum dolor sit amet.</span><span class="tag">&lt;/p&gt;</span></li><li class="L4"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Debitis dolorum illo nisi suscipit!</span><span class="tag">&lt;/p&gt;</span></li><li class="L5"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Animi explicabo libero quis voluptates?</span><span class="tag">&lt;/p&gt;</span></li><li class="L6"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
-        </td>
-    </tr>
-    </tbody>
-</table>
+  <table id="t1" cellpadding="2" cellspacing="2" align="center" class="table emmet table-hover">
+      <caption>Emmet основной синтаксис</caption>
+      <tbody>
+      <tr>
+          <th>
+              Сокращение
+          </th>
+          <th>
+              Расшифровка сокращений
+          </th>
+      </tr>
+      <tr>
+          <td>
+              Дочерний: <span class="code">&gt;</span>
+          </td>
+          <td><pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- nav&gt;ul&gt;li --&gt;</span></li><li class="L1"><span class="tag">&lt;nav&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;ul&gt;</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="tag">&lt;/nav&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Соединение: <span class="code">+</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div+p+bq --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;p&gt;&lt;/p&gt;</span></li><li class="L3"><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Поместить выше (в дереве HTML): <span class="code">^</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div+div&gt;p&gt;span+em^bq --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;div&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li><li class="L5"><span class="tag">&lt;/div&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="com">&lt;!-- div+div&gt;p&gt;span+em^^bq --&gt;</span></li><li class="L8"><span class="tag">&lt;div&gt;&lt;/div&gt;</span></li><li class="L9"><span class="tag">&lt;div&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;p&gt;&lt;span&gt;&lt;/span&gt;&lt;em&gt;&lt;/em&gt;&lt;/p&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span></li><li class="L2"><span class="tag">&lt;blockquote&gt;&lt;/blockquote&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Группировка: <span class="code">()</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- div&gt;(header&gt;ul&gt;li*2&gt;a)+footer&gt;p --&gt;</span></li><li class="L1"><span class="tag">&lt;div&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;header&gt;</span></li><li class="L3"><span class="pln">        </span><span class="tag">&lt;ul&gt;</span></li><li class="L4"><span class="pln">            </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li class="L5"><span class="pln">            </span><span class="tag">&lt;li&gt;&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/a&gt;&lt;/li&gt;</span></li><li class="L6"><span class="pln">        </span><span class="tag">&lt;/ul&gt;</span></li><li class="L7"><span class="pln">    </span><span class="tag">&lt;/header&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;footer&gt;</span></li><li class="L9"><span class="pln">        </span><span class="tag">&lt;p&gt;&lt;/p&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;/footer&gt;</span></li><li class="L1"><span class="tag">&lt;/div&gt;</span><span class="pln"> </span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Умножение: <span class="code">*</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- ul&gt;li*3 --&gt;</span></li><li class="L1"><span class="tag">&lt;ul&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li&gt;&lt;/li&gt;</span></li><li class="L5"><span class="tag">&lt;/ul&gt;</span><span class="pln"> </span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Нумерация: <span class="code">$</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- ul&gt;li.item$*3 --&gt;</span></li><li class="L1"><span class="tag">&lt;ul&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L5"><span class="tag">&lt;/ul&gt;</span></li><li class="L6"><span class="pln">&nbsp;</span></li><li class="L7"><span class="com">&lt;!-- h$[title=item$]{Header $}*3 --&gt;</span></li><li class="L8"><span class="tag">&lt;h1</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;</span><span class="pln">Header 1</span><span class="tag">&lt;/h1&gt;</span></li><li class="L9"><span class="tag">&lt;h2</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;</span><span class="pln">Header 2</span><span class="tag">&lt;/h2&gt;</span></li><li class="L0"><span class="tag">&lt;h3</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;</span><span class="pln">Header 3</span><span class="tag">&lt;/h3&gt;</span></li><li class="L1"><span class="pln">&nbsp;</span></li><li class="L2"><span class="com">&lt;!-- ul&gt;li.item$$$*3 --&gt;</span></li><li class="L3"><span class="tag">&lt;ul&gt;</span></li><li class="L4"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item001"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item002"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L6"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item003"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L7"><span class="tag">&lt;/ul&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="com">&lt;!-- ul&gt;li.item$@-*3 --&gt;</span></li><li class="L0"><span class="tag">&lt;ul&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item2"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item1"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L4"><span class="tag">&lt;/ul&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- ul&gt;li.item$@3*5 --&gt;</span></li><li class="L7"><span class="tag">&lt;ul&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item3"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L9"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item4"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L0"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item5"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L1"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item6"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L2"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"item7"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L3"><span class="tag">&lt;/ul&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              <span class="code">id</span> и <span class="code">class</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- #header --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"header"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- .title --&gt;</span></li><li class="L4"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"title"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- form#search.wide --&gt;</span></li><li class="L7"><span class="tag">&lt;form</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"search"</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"wide"</span><span class="tag">&gt;&lt;/form&gt;</span></li><li class="L8"><span class="pln">&nbsp;</span></li><li class="L9"><span class="com">&lt;!-- p.class1.class2.class3 --&gt;</span></li><li class="L0"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class1 class2 class3"</span><span class="tag">&gt;&lt;/p&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Атрибуты: <span class="code">[]</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- p[title="Hello world"] --&gt;</span></li><li class="L1"><span class="tag">&lt;p</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">"Hello world"</span><span class="tag">&gt;&lt;/p&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- td[rowspan=2 colspan=3 title] --&gt;</span></li><li class="L4"><span class="tag">&lt;td</span><span class="pln"> </span><span class="atn">rowspan</span><span class="pun">=</span><span class="atv">"2"</span><span class="pln"> </span><span class="atn">colspan</span><span class="pun">=</span><span class="atv">"3"</span><span class="pln"> </span><span class="atn">title</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;&lt;/td&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- [a='value1' b="value2"] --&gt;</span></li><li class="L7"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">a</span><span class="pun">=</span><span class="atv">"value1"</span><span class="pln"> </span><span class="atn">b</span><span class="pun">=</span><span class="atv">"value2"</span><span class="tag">&gt;&lt;/div&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Текст: <span class="code">{}</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- a{Click me} --&gt;</span></li><li class="L1"><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span><span class="pln">Click me</span><span class="tag">&lt;/a&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- p&gt;{Click }+a{here}+{ to continue} --&gt;</span></li><li class="L4"><span class="tag">&lt;p&gt;</span><span class="pln">Click </span><span class="tag">&lt;a</span><span class="pln"> </span><span class="atn">href</span><span class="pun">=</span><span class="atv">""</span><span class="tag">&gt;</span><span class="pln">here</span><span class="tag">&lt;/a&gt;</span><span class="pln"> to continue</span><span class="tag">&lt;/p&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      <tr>
+          <td>
+              Сокращение тегов:
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- .class --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/div&gt;</span></li><li class="L2"><span class="pln">&nbsp;</span></li><li class="L3"><span class="com">&lt;!-- em&gt;.class --&gt;</span></li><li class="L4"><span class="tag">&lt;em&gt;&lt;span</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/span&gt;&lt;/em&gt;</span></li><li class="L5"><span class="pln">&nbsp;</span></li><li class="L6"><span class="com">&lt;!-- ul&gt;.class --&gt;</span></li><li class="L7"><span class="tag">&lt;ul&gt;</span></li><li class="L8"><span class="pln">    </span><span class="tag">&lt;li</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"class"</span><span class="tag">&gt;&lt;/li&gt;</span></li><li class="L9"><span class="tag">&lt;/ul&gt;</span></li><li class="L0"><span class="pln">&nbsp;</span></li><li class="L1"><span class="com">&lt;!-- table&gt;.row&gt;.col --&gt;</span></li><li class="L2"><span class="tag">&lt;table&gt;</span></li><li class="L3"><span class="pln">    </span><span class="tag">&lt;tr</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"row"</span><span class="tag">&gt;</span></li><li class="L4"><span class="pln">        </span><span class="tag">&lt;td</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"col"</span><span class="tag">&gt;&lt;/td&gt;</span></li><li class="L5"><span class="pln">    </span><span class="tag">&lt;/tr&gt;</span></li><li class="L6"><span class="tag">&lt;/table&gt;</span><span class="pln"> </span></li></ol></pre>
+          </td>
+      </tr>
+      <tr id="em-2">
+          <td>
+              Генератор текста: <span class="code">lorem</span>
+          </td>
+          <td>
+       <pre class="prettyprint linenums"><ol class="linenums"><li class="L0"><span class="com">&lt;!-- .wrapper&gt;h1{My Text}+p*3&gt;lorem5 --&gt;</span></li><li class="L1"><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">class</span><span class="pun">=</span><span class="atv">"wrapper"</span><span class="tag">&gt;</span></li><li class="L2"><span class="pln">   </span><span class="tag">&lt;h1&gt;</span><span class="pln">My Text</span><span class="tag">&lt;/h1&gt;</span></li><li class="L3"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Lorem ipsum dolor sit amet.</span><span class="tag">&lt;/p&gt;</span></li><li class="L4"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Debitis dolorum illo nisi suscipit!</span><span class="tag">&lt;/p&gt;</span></li><li class="L5"><span class="pln">   </span><span class="tag">&lt;p&gt;</span><span class="pln">Animi explicabo libero quis voluptates?</span><span class="tag">&lt;/p&gt;</span></li><li class="L6"><span class="tag">&lt;/div&gt;</span></li></ol></pre>
+          </td>
+      </tr>
+      </tbody>
+  </table>
 
 <h3 id="t2" style="text-align: center;margin: 50px 0 30px 0;"><span style="font-size: 24pt;">HTML сокращения в EMMET</span></h3>
 <table cellpadding="2" cellspacing="2" align="center" class="table emmet table-hover">
