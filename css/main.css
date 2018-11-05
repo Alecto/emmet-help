@@ -1,0 +1,12 @@
+body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    padding-top: 30px;
+}
+
+tr > td:first-child {
+    width: 25% !important;
+}
